@@ -17,17 +17,9 @@ app.use(express.json()); // for post requests
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/skeletondb", {useNewUrlParser:true});
-
-
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutdb", {useNewUrlParser:true});
 
 // Listener 
 app.listen(PORT, () => {
     console.log(`app running on http://localhost:${PORT}`);
 })
-
-
-
-
-
-

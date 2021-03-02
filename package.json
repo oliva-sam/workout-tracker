@@ -1,5 +1,5 @@
 {
-  "name": "mongoose_skeleton",
+  "name": "workout-tracker",
   "version": "1.0.0",
   "description": "UTSA Coding Bootcamp Homework 17 - NoSQL",
   "main": "server.js",
