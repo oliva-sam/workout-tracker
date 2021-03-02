@@ -52,5 +52,5 @@ app.get("/api/workouts/range", (req, res) => {
 
 });
 
-model.exports = app;
+module.exports = app;
 
